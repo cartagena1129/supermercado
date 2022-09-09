@@ -1,4 +1,8 @@
+h1,h1,h3,h4,h5,h6,p{
+      font-family: 'Roboto', sans-serif;
+}
 .menu{
+
     width: 100%;
     height: 100px;
     background-color: rgb(72, 226, 58);
@@ -62,20 +66,19 @@ display: flex;
   }
 
 .principal .con-texto{
-    width: 500px;
-    height: 400px;
+    width: 400px;
     text-align: center;
-   
 
 }
 
 .principal .con-texto h1{
     font-size: 50px;
     color: rgb(17, 17, 16);
+  
 }
 
 .principal .con-texto p{
-    font-size: 30px;
+    font-size: 18px;
     color: rgb(12, 12, 12);
 }
 .principal .con-texto a{
@@ -91,4 +94,86 @@ display: flex;
     width: 500px;
 
     
+}
+
+/* sesion descuento */
+.descuento{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descuento .imagenes-des img{
+    width: 100px;
+    height: 100px;
+}
+
+.imagenes-des{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+
+}
+.titulo h2,
+.productos .titulo-pro{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.con-productos{
+    width: 100%;
+    height: auto;
+
+}
+
+.con-productos .tarjeta-pro{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(72, 226, 58);
+    border-radius: 10px;
+    border: 1px solid black;
+    
+}
+
+.tarjeta-pro img{
+    width: 100%;
+    height: auto;
+
+}
+
+.tarjeta-pro .contenido{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.tarjeta-pro .contenido h3{
+    color: rgb(9, 10, 10);
+    font-size: 35px;
+    font-weight: bold;
+}
+.tarjeta-pro .contenido p{
+   font-size: 20px;
+   
+}
+.tarjeta-pro .botones{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tarjeta-pro .botones p{
+    font-weight: bold;
+    color: rgb(8, 8, 8);
+
+}
+.tarjeta-pro .botones a{
+    font-weight: bold;
+    color: rgb(8, 8, 8); 
+    padding: 7px 12px;
+    border-radius: 10px;
+    text-decoration: none;
 }
